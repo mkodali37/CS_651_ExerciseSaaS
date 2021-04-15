@@ -1,4 +1,4 @@
-package com.csueb.exercise.saas;
+package com.group8.exercise.saas;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import com.google.appengine.api.blobstore.BlobstoreService;
 import com.google.appengine.api.blobstore.BlobstoreServiceFactory;
 
 @WebServlet("/serve")
-public class Serve extends HttpServlet {
+public class Servelet extends HttpServlet {
     private BlobstoreService blobstoreService = BlobstoreServiceFactory.getBlobstoreService();
 
     @Override
